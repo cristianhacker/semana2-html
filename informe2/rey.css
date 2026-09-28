@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+:root {
+    
+    --menu: #64748B;
+    --fondo-claro: #F1F5F9;
+    --acero: #1E293B;
+    --borde: #CBD5E1;
+    --xd: #75351c;
+    --verde: #8FBC8F;
+    --negro: #000000;
+    --gris: #A9A9A9;
+    --plomo: #333;
+}
+
+
+body{
+    background-image: url(img/fondonegro.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;}
+h1, h2{
+    background-color: antiquewhite;
+    color: var(--negro);
+    text-align: center;
+}
+div img{
+    padding-left: 370px
+}
+section{
+    display:flex;
+}
+p{
+    background-color:antiquewhite ;
+    color: var(--negro);
+    border-style: solid;
+}

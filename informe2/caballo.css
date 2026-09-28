@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+:root {
+    
+    --menu: #64748B;
+    --fondo-claro: #F1F5F9;
+    --acero: #1E293B;
+    --borde: #CBD5E1;
+    --xd: #75351c;
+    --verde: #8FBC8F;
+    --negro: #000000;
+    --gris: #A9A9A9;
+    --plomo: #333;
+}
+
+
+body{
+    background-image: url(img/fondonegro.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;}
+main{
+    width: 1000px;
+    height: 1000px;
+    margin:auto;
+    background-color: var(--gris);}
+h1{text-align: center;
+background-color: var(--negro);
+color: antiquewhite;}
+h2{text-align: center;
+background-color: var(--negro);
+color: antiquewhite;}
+
+section p{background-color: beige; text-align: center;
+    padding: 10px; height:200px;width:50%;float: left;
+    border-style: solid;overflow: auto; margin-left: 200px;}
+
+
+
+#caballo img{
+    width: 270px;
+    height: 220px;
+    margin-left: 300px ;
+    border-radius: 30px;
+}      
+footer{
+    background-color: #000000;
+}
